@@ -1,0 +1,27 @@
+.sidebaroptions{
+    color: gray;
+    height: 40px;
+    cursor: pointer;
+    transition: 200ms color ease-in;
+    display: flex;
+    align-items: center;
+}
+
+.sidebaroptions :hover{
+    color: white;
+}
+.sidebaroptions__icon {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.sidebar__playlist{
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 12px;
+}
+.sidebaroptions > p{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
